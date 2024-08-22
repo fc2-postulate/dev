@@ -3,15 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <title>Invitation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .invitation-card {
+            background-color: #fff;
+            width: 350px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .invitation-card h1 {
+            font-family: 'Georgia', serif;
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .invitation-card p {
+            font-size: 16px;
+            color: #666;
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .invitation-card .date-time {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .invitation-card .rsvp {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .invitation-card .rsvp a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .invitation-card .rsvp a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    
-    <h1>Postulate Info Tech Pvt Ltd </h1>
-    <h2>hi anitha<h2>
-    <h2>Hi Michael Bevan !!!!!!!!!!</h2>
-    <h2>Hi Nixon Israel</h2>
-    <h2>Hi Sivaganesh !!!!!!!!!</h2>
-    
+    <div class="invitation-card">
+        <h1>You're Invited!</h1>
+        <p>We would be delighted if you could join us for a special event.</p>
+        <p class="date-time">Saturday, August 31, 2024<br>5:00 PM - 8:00 PM</p>
+        <p>Venue:<br>Sunset Gardens<br>1234 Rose Street, Cityville</p>
+        <p class="rsvp">Please RSVP by August 20th<br><a href="mailto:rsvp@example.com">rsvp@example.com</a></p>
+    </div>
 </body>
 </html>
+
